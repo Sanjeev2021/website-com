@@ -1,0 +1,12 @@
+(function () {
+  window.__WEBFLOW_CURRENCY_SETTINGS = {
+    "currencyCode": "USD",
+    "$init": true,
+    "symbol": "$",
+    "decimal": ".",
+    "fractionDigits": 2,
+    "group": ",",
+    "template": "{{ wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{ wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{ wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}",
+    "hideDecimalForWholeNumbers": false
+  };
+})()
