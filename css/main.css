@@ -4297,6 +4297,7 @@ blockquote {
   font-weight: 500;
   transition: background-color .2s;
   display: flex;
+  /* width: 100%;  */
 }
 
 
@@ -10269,6 +10270,24 @@ a.article.first-article.epigenetics {
 
   .center-text {
     text-align: center !important;
+  }
+
+  .flex-two-horizontal-buttons {
+    display: block;
+    text-align: center;
+    padding-right : 40px;
+  
+  }
+
+  .button-gradient-mask {
+    margin: 10px auto; /* Center the button */
+    max-width: 100%; /* Ensure it fits within the viewport */
+  }
+
+  .cta-green {
+        font-size: 14px; /* Adjust font size for better mobile fit */
+        padding-right : 50px;
+        width : 95%;
   }
 
 /* Grid layout adjustments */
